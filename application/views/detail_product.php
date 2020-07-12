@@ -1,0 +1,207 @@
+<!doctype html>
+<html class="no-js" lang="zxx">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>Herbalife</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" href="<?php echo base_url()?>assets/assetshome/img/core-img/icon3.png">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/bootstrap.min.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/magnific-popup.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/font-awesome.min.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/themify-icons.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/nice-select.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/flaticon.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/gijgo.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/animate.min.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/slick.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/slicknav.css">
+    <link rel="stylesheet" href="<?php echo base_url()?>aset/css/style.css">
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body>
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+    <header>
+        <div class="header-area ">
+            <div id="sticky-header" class="main-header-area">
+                <div class="container-fluid">
+                    <div class="row align-items-center">
+                        <div class="col-xl-5 col-lg-1" align="center">
+                            <div class="logo">
+                                <a href="index.html">
+                                    <img src="<?php echo base_url()?>aset/img/logo.png" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="col-xl-6 col-lg-4">
+                            <div class="main-menu  d-none d-lg-block">
+                                <nav>
+                                    <ul id="navigation">
+                                        <li><a href="<?=site_url ()?>welcome">Beranda</a></li>
+                                        <li><a href="#">Data <i class="ti-angle-down"></i></a>
+                                            <ul class="submenu">
+                                                <li><a href="<?=site_url ()?>Data">Data Diri</a></li>
+                                                <li><a href="<?=site_url ()?>Data/data_analisis">Data Hasil Analisa</a></li>
+                                            </ul>
+                                        </li>
+                                         <li><a href="<?=site_url ()?>welcome/#Tentang">Tentang</a></li>
+                                        <li><a href="<?=site_url ()?>welcome/#Produk">Produk</a></li>
+                                         <li><a href="<?=site_url ()?>welcome/#Kontak">Kontak</a></li>
+                                    </ul>
+                                </nav>
+                            </div>
+                        </div>
+                        <div class="col-12">
+                            <div class="mobile_menu d-block d-lg-none"></div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- header-end -->
+
+   <div class="bradcam_area">
+            <!-- <div class="bradcam_shap">
+                <img src="img/ilstrator/bradcam_ils.png" alt="">
+            </div> -->
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-12">
+                        <div class="bradcam_text ">
+                            <h3>Product Design</h3>
+                            <nav class="brad_cam_lists">
+                                <ul class="breadcrumb">
+                                    <li class="breadcrumb-item"><a href="<?=site_url ()?>welcome/#Produk">Produk</a></li>
+                                    <li class="breadcrumb-item active" aria-current="page">Shake</li>
+                                  </ul>
+                            </nav>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /bradcam_area  -->
+    <!-- case_details_area  -->
+    <div class="case_details_area">
+        <div class="container">
+            <div class="border_bottom">
+                <div class="row ">
+                    <div class="col-xl-12">
+                        <div class="case_thumb">
+                            <img src="<?php echo base_url()?>aset/img/case_study/1.png" alt="">
+                        </div>
+                    </div>
+                    <div class="col-xl-9">
+                        <div class="details_main_wrap">
+                            <p class="details_info">
+                                “Donec imperdiet congue orci consequat mattis. Donec rutrum porttitor
+                                sollicitudin. Pellentesque id dolor tempor sapien feugiat ultrices nec sed neque.
+                                Fusce ac mattis nulla. Morbi eget ornare dui.
+                            </p>
+                            <div class="single_details">
+                                <span>Problem</span>
+                                <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture
+                                    placing drawing. Apartments frequently or motionless on reasonable sed do eiusmod
+                                    tempor inciunt ut labore et dolore magna liqua.abore et dolore incididunt ut labore
+                                    et dolore magna liqua abore et dolore</p>
+                            </div>
+                            <div class="single_details">
+                                <span>Solution</span>
+                                <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture
+                                    placing drawing. Apartments frequently or motionless on reasonable sed do eiusmod
+                                    tempor inciunt ut labore et dolore magna liqua.abore et dolore incididunt ut labore
+                                    et dolore magna liqua abore et dolore</p>
+                            </div>
+                            <div class="single_details">
+                                <span>Result</span>
+                                <p>Esteem spirit temper too say adieus who direct esteem. It esteems luckily or picture
+                                    placing drawing. Apartments frequently or motionless on reasonable sed do eiusmod
+                                    tempor inciunt ut labore et dolore magna liqua.abore et dolore incididunt ut labore
+                                    et dolore magna liqua abore et dolore</p>
+                            </div>
+                            <div class="single_details mb-60">
+                                <ul>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-facebook"></i> Facebook </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-twitter"></i> Twitter </a>
+                                    </li>
+                                    <li>
+                                        <a href="#"> <i class="fa fa-pinterest-p"></i> Pinterest </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- /case_details_area  -->
+
+    <!-- case_study_area  -->
+        <!--/ case_study_area  -->
+   <footer class="footer">
+            <div class="copy-right_text">
+                <div class="container">
+                    <div class="footer_border"></div>
+                    <div class="row">
+                        <div class="col-xl-12">
+                            <p class="copy_right text-center">
+                                <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+Herbalife | Skripsi
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+    <!-- JS here -->
+    <script src="<?php echo base_url()?>aset/<?php echo base_url()?>aset/js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/popper.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/bootstrap.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/owl.carousel.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/isotope.pkgd.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/ajax-form.js"></script>
+    <script src="<?php echo base_url()?>aset/js/waypoints.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.counterup.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/imagesloaded.pkgd.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/scrollIt.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.scrollUp.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/wow.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/nice-select.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.slicknav.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.magnific-popup.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/plugins.js"></script>
+    <script src="<?php echo base_url()?>aset/js/gijgo.min.js"></script>
+
+    <!--contact js-->
+    <script src="<?php echo base_url()?>aset/js/contact.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.ajaxchimp.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.form.js"></script>
+    <script src="<?php echo base_url()?>aset/js/jquery.validate.min.js"></script>
+    <script src="<?php echo base_url()?>aset/js/mail-script.js"></script>
+
+    <script src="<?php echo base_url()?>aset/js/main.js"></script>
+</body>
+
+</html>
